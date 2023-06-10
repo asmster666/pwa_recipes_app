@@ -1,0 +1,12 @@
+.breadCrumbs {
+    display: block;
+    position: fixed;
+    width: fit-content;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.breadCrumbs:hover {
+    margin-right: 3px;
+}

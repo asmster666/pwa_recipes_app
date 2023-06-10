@@ -1,0 +1,43 @@
+.mealItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #0087a2;
+    border-radius: 10px;
+    width: calc(80% - 40px);
+    padding: 20px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.mealItem:hover {
+    transform: scale(0.98);
+}
+
+.mealItem img {
+    display: block;
+    margin: 0 auto;
+    max-width: 170px;
+    border-radius: 10px;
+}
+
+.mealItem h3 {
+    margin: 20px 0;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.mealItem a {
+    display: block;
+    text-decoration: none;
+    color: #0087a2;
+    padding: 10px 20px;
+    border: 1px solid #0087a2;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.mealItem a:hover {
+    background-color: #fff;
+}
